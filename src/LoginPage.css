@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+.rt{
+    display: flex;
+    align-items: last baseline;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 350px;
+    margin-left: 500px;
+    justify-content:space-evenly;
+    height: 100px;
+}
+.Login {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 20px;
+    padding: 30px;
+    margin-top: 30px;
+    align-items: center;
+    
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    
+
+        
+    
+}
+.sp{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.input{
+    display: flex;
+    color: blue;
+    border-radius: 3px;
+    outline: 0px;
+    justify-content: center;
+    font-size: medium;
+    padding: 5px;
+    width: 350px;
+    
+}
+.button {
+    background-color: rgb(144, 5, 5);
+    color: white;
+    width: 350px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.OTP {margin-top: 8px;
+    grid-column-end: auto;
+    align-items: center;
+    color: blue;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-around;
+    width: 350px;
+    font-size: medium;
+}
+.otp{
+    background-color: rgb(144, 5, 5);
+    margin-top: 8px;
+    grid-column-end: auto;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    justify-content: space-around;
+    width: 350px;
+    font-size: medium;
+    outline: 0px;
+}
+

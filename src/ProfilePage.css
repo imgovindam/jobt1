@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: blue; */
+}
+.f1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    margin: 30px;
+    height: 100vh;
+    width: 80%;
+    text-align: left;
+  }
+  .name {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 150px;
+    align-items: left;
+    justify-content: space-between;
+    margin-top:15px;
+    width: 15px;
+    text-align: center;
+    position: relative;
+    /* gap: 10px; */
+
+  }
+
+  
+  .last { 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    padding-top: 180px;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-left:300px;
+    width: 15px;
+    text-align: center;
+    /* position: absolute; */
+    /* gap: 50px; */
+    
+
+  }
+  
+  .sec2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 250, 250);
+    width: 20%;
+    height: 65%;
+    /* margin-left: 20px; */
+    /* position: absolute; */
+    margin-right: 800px;
+    margin-top: -23%;
+    gap: 20px;
+  }
+  
+   .ava {
+    /* display: flex; */
+    justify-content: space-around;
+    cursor: pointer;
+    padding-left: 10px;
+    margin: 10px;
+    align-items: center; 
+ /* flex-wrap: wrap; */
+ flex-direction: column;
+ position: absolute;
+ gap: 20px;
+}
+.form{
+    display: flex;
+    /* margin-top: 100px; */
+    
+}
+.pic1{
+    margin-top: 70px;
+    margin-left: 370px;
+    position: absolute;
+}
+
+    
+
+
+  
